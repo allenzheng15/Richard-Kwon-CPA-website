@@ -10,7 +10,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #d4d4d4;
         }
 
         header {
@@ -39,6 +39,28 @@
 
         section {
             padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .icon-grid{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .icon-item{
+            text-align: center;
+        }
+
+        .icon-item{
+            font-size: 25px;
+            margin-bottom: 10px;
         }
 
         footer {
@@ -72,30 +94,50 @@
     </section>
 
     <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li>Bookkeeping</li>
-            <li>Auditing</li>
-            <li>Tax Planning</li>
-            <li>Financial Consulting</li>
-        </ul>
+        <h2>Services</h2>
+        <div class="icon-grid">
+            <div class="icon-item">
+                <i class="fas fa-cog"></i>
+                <p>Accounting and Bookkeeping</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-wallet"></i>
+                <p>Business income Taxation</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-wallet"></i>
+                <p>Consulting</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-wallet"></i>
+                <p>Payroll Services</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-wallet"></i>
+                <p>Individual Income Taxation</p>
+            </div>
+            <div class="icon-item">
+                <i class="fas fa-wallet"></i>
+                <p>Financial Statement Review</p>
+            </div>
+        </div>
     </section>
+
+    
 
     <section id="about">
         <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec,
-            mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.</p>
+        <p> 
+            In 2001, Richard Kwon founded Richard Kwon CPA upon relocating from Seoul, South Korea, to Seattle. Armed with a Bachelor's degree in accounting from Seoul University and a CPA license since 1998, Richard brings over two decades of expertise to the field. As a seasoned certified public accountant, he is dedicated to assisting individuals and businesses in optimizing their returns.
+            Richard is not only fluent in both Korean and English but also embraces the opportunity to collaborate with individuals from diverse backgrounds and communities. His commitment to excellence and wealth of experience make him a trusted partner in navigating your financial success journey. </p>
     </section>
 
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>Email: info@accountingfirm.com</p>
-        <p>Phone: (123) 456-7890</p>
+        <p>Email: richardkwoncpa@hotmail.com</p>
+        <p>Phone: 425-444-0100</p>
+        <p>Address: 11900 NE 1st ST STE 300 R3097 Bellevue, WA 98006-3046</p>
     </section>
-
-    <footer>
-        <p>&copy; 2023 Accounting Firm. All rights reserved.</p>
-    </footer>
 
 </body>
 
